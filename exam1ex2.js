@@ -60,7 +60,7 @@ function getFactorial(n) {
     return (n != 1) ? n * getFactorial(n-1) : 1;
 }
 
-//Задание 4b
+//Задание 4a
 function digitSum (y) {
     let sum = 0;
     let str = String(y);
